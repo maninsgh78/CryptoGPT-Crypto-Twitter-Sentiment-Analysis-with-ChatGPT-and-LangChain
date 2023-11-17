@@ -54,13 +54,13 @@ def create_sentiment_dataframe(sentiment_data: Dict[str, int]) -> pd.DataFrame:
 
 st.set_page_config(
     layout="wide",
-    page_title="CryptoGPT: Crypto Twitter Sentiment Analysis",
+    page_title="Crypto Twitter Sentiment Analysis",
     page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4c8.png",
 )
 
 
 st.markdown(
-    "<h1 style='text-align: center'>CryptoGPT: Crypto Twitter Sentiment Analysis</h1>",
+    "<h1 style='text-align: center'>Crypto Twitter Sentiment Analysis</h1>",
     unsafe_allow_html=True,
 )
 
